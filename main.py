@@ -2,7 +2,8 @@ import pytest
 
 
 def always_returns_true():
-    return False
+    x = 3 + 4
+    return x
 
 
 def test_always_returns_true():
